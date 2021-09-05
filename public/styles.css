@@ -1,0 +1,9 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  overflow: hidden;
+  width: 100%;
+  background-color: black;
+  font-size: 25vw;
+  color: #fff;
+  text-align: center;
+}

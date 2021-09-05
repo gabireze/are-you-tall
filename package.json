@@ -1,0 +1,27 @@
+{
+  "name": "are-you-tall",
+  "homepage": "https://areyoutall.me",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Gabriel de Rezende Gonçalves <contato@gabireze.com.br> (https://github.com/gabireze)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gabireze/are-you-tall.git"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "local": "nodemon index.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "description": "",
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
